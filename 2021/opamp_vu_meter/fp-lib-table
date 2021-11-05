@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name opamp_vu_meter)(type KiCad)(uri ${KIPRJMOD}/opamp_vu_meter.pretty)(options "")(descr ""))
+)

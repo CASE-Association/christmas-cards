@@ -46,34 +46,6 @@ F 3 "" H 3550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3300 2750 3300
-Wire Wire Line
-	2850 3400 2850 3500
-$Comp
-L power:GND #PWR0121
-U 1 1 6170D409
-P 2850 3500
-F 0 "#PWR0121" H 2850 3250 50  0001 C CNN
-F 1 "GND" H 2855 3327 50  0000 C CNN
-F 2 "" H 2850 3500 50  0001 C CNN
-F 3 "" H 2850 3500 50  0001 C CNN
-	1    2850 3500
-	1    0    0    -1  
-$EndComp
-Text GLabel 2750 3300 0    50   Input ~ 0
-AudioLevel
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 617060B9
-P 3050 3300
-F 0 "J2" H 3130 3292 50  0000 L CNN
-F 1 "Conn_01x02" H 3130 3201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3050 3300 50  0001 C CNN
-F 3 "~" H 3050 3300 50  0001 C CNN
-	1    3050 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	5050 5100 5050 5400
 Text GLabel 5050 5100 2    50   Input ~ 0
 AudioLevel
@@ -238,13 +210,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 618402C3
-P 1650 3300
-F 0 "J1" H 1730 3292 50  0000 L CNN
-F 1 "Conn_01x02" H 1730 3201 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1650 3300 50  0001 C CNN
-F 3 "~" H 1650 3300 50  0001 C CNN
-	1    1650 3300
-	1    0    0    -1  
+P 1250 3400
+F 0 "J1" H 1330 3392 50  0000 L CNN
+F 1 "Conn_01x02" H 1330 3301 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1250 3400 50  0001 C CNN
+F 3 "~" H 1250 3400 50  0001 C CNN
+	1    1250 3400
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C3
@@ -448,7 +420,6 @@ F 3 "~" H 2050 6100 50  0001 C CNN
 	1    2050 6100
 	0    1    1    0   
 $EndComp
-NoConn ~ 4900 1600
 $Comp
 L Amplifier_Operational:TLC272 U2
 U 1 1 615DB121
@@ -542,7 +513,7 @@ L Device:R_Small R10
 U 1 1 615F7525
 P 5700 1700
 F 0 "R10" H 5759 1746 50  0000 L CNN
-F 1 "9.2k" H 5759 1655 50  0000 L CNN
+F 1 "43k" H 5759 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5700 1700 50  0001 C CNN
 F 3 "~" H 5700 1700 50  0001 C CNN
 	1    5700 1700
@@ -716,31 +687,18 @@ Wire Wire Line
 	6400 5500 6500 5500
 Connection ~ 6400 4950
 $Comp
-L Device:R_POT RV1
-U 1 1 61613085
-P 5050 1600
-F 0 "RV1" V 4843 1600 50  0000 C CNN
-F 1 "34-37k" V 4934 1600 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 5050 1600 50  0001 C CNN
-F 3 "~" H 5050 1600 50  0001 C CNN
-	1    5050 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:VCC #PWR01
 U 1 1 6161C13B
-P 5050 1350
-F 0 "#PWR01" H 5050 1200 50  0001 C CNN
-F 1 "VCC" H 5065 1523 50  0000 C CNN
-F 2 "" H 5050 1350 50  0001 C CNN
-F 3 "" H 5050 1350 50  0001 C CNN
-	1    5050 1350
+P 5700 1500
+F 0 "#PWR01" H 5700 1350 50  0001 C CNN
+F 1 "VCC" H 5715 1673 50  0000 C CNN
+F 2 "" H 5700 1500 50  0001 C CNN
+F 3 "" H 5700 1500 50  0001 C CNN
+	1    5700 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 1350 5050 1450
-Wire Wire Line
-	5200 1600 5700 1600
+	5700 1500 5700 1600
 $Comp
 L Device:R_Small R18
 U 1 1 61625DB4
@@ -1200,4 +1158,23 @@ Wire Wire Line
 	8600 3750 9050 3750
 Wire Wire Line
 	8600 3650 9050 3650
+Text GLabel 2750 3300 0    50   Input ~ 0
+AudioLevel
+Wire Wire Line
+	2850 3300 2750 3300
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61B4A93D
+P 2850 3300
+F 0 "TP1" H 2908 3418 50  0000 L CNN
+F 1 "TestPoint" H 2908 3327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3050 3300 50  0001 C CNN
+F 3 "~" H 3050 3300 50  0001 C CNN
+	1    2850 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 1650 0    50   ~ 0
+Värt att byta resistorer till SMD trimpots?
+Text Notes 7850 4350 0    50   ~ 0
+RN eller 8xR?
 $EndSCHEMATC
