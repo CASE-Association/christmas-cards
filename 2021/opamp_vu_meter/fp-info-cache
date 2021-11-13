@@ -1,4 +1,4 @@
-18628484995444911
+18633395289477922
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82046,3 +82046,24 @@ capacitor handsolder
 0
 2
 2
+opamp_vu_meter
+R_Array_Convex_4x1206_long
+Chip Resistor Network, ROHM MNR34 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+print
+eyes
+
+
+0
+0
+0
+print
+godjul
+
+
+0
+0
+0

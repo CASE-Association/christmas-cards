@@ -112,28 +112,6 @@ Wire Wire Line
 	3550 5950 3550 5800
 Wire Wire Line
 	2900 5950 3550 5950
-$Comp
-L Device:C_Small C4
-U 1 1 61681A90
-P 4350 5650
-F 0 "C4" H 4442 5696 50  0000 L CNN
-F 1 "C_Small" H 4442 5605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4350 5650 50  0001 C CNN
-F 3 "~" H 4350 5650 50  0001 C CNN
-	1    4350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R9
-U 1 1 6167D4EA
-P 4850 5650
-F 0 "R9" H 4909 5696 50  0000 L CNN
-F 1 "R_Small" H 4909 5605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4850 5650 50  0001 C CNN
-F 3 "~" H 4850 5650 50  0001 C CNN
-	1    4850 5650
-	1    0    0    -1  
-$EndComp
 Connection ~ 3550 5400
 Wire Wire Line
 	4000 5400 3550 5400
@@ -414,7 +392,7 @@ L Device:R_Small R5
 U 1 1 616CF1A9
 P 2050 6100
 F 0 "R5" V 1854 6100 50  0000 C CNN
-F 1 "200k" V 1945 6100 50  0000 C CNN
+F 1 "100k" V 1945 6100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2050 6100 50  0001 C CNN
 F 3 "~" H 2050 6100 50  0001 C CNN
 	1    2050 6100
@@ -507,17 +485,6 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6800 5050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 6800 5050 50  0001 C CNN
 	2    6800 5050
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 615F7525
-P 5700 1700
-F 0 "R10" H 5759 1746 50  0000 L CNN
-F 1 "43k" H 5759 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5700 1700 50  0001 C CNN
-F 3 "~" H 5700 1700 50  0001 C CNN
-	1    5700 1700
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R11
@@ -686,19 +653,6 @@ Connection ~ 6400 4400
 Wire Wire Line
 	6400 5500 6500 5500
 Connection ~ 6400 4950
-$Comp
-L power:VCC #PWR01
-U 1 1 6161C13B
-P 5700 1500
-F 0 "#PWR01" H 5700 1350 50  0001 C CNN
-F 1 "VCC" H 5715 1673 50  0000 C CNN
-F 2 "" H 5700 1500 50  0001 C CNN
-F 3 "" H 5700 1500 50  0001 C CNN
-	1    5700 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 1500 5700 1600
 $Comp
 L Device:R_Small R18
 U 1 1 61625DB4
@@ -902,65 +856,32 @@ F 3 "~" V 9450 2350 50  0001 C CNN
 	1    9450 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L opamp_vu_meter-rescue:EXB-2HV331JV-SamacSys_Parts RN1
-U 1 1 6179BC74
-P 8600 3350
-F 0 "RN1" H 9050 3615 50  0000 C CNN
-F 1 "EXB-2HV331JV" H 9050 3524 50  0000 C CNN
-F 2 "SamacSys_Parts:EXB2HV331JV" H 9350 3450 50  0001 L CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 9350 3350 50  0001 L CNN
-F 4 "PANASONIC - EXB2HV331JV - RESISTOR,CVEX ARRAY,0402X8, 330R 5%" H 9350 3250 50  0001 L CNN "Description"
-F 5 "0.55" H 9350 3150 50  0001 L CNN "Height"
-F 6 "667-EXB-2HV331JV" H 9350 3050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-2HV331JV?qs=oE3VwAv%2FYtnCLUI08Bts8A%3D%3D" H 9350 2950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Panasonic" H 9350 2850 50  0001 L CNN "Manufacturer_Name"
-F 9 "EXB-2HV331JV" H 9350 2750 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8600 3350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 3350 7550 3350
 Wire Wire Line
 	7550 3350 7550 1750
-Wire Wire Line
-	7700 3450 7450 3450
 Wire Wire Line
 	7450 3450 7450 2300
 Wire Wire Line
 	7450 2300 7100 2300
 Wire Wire Line
-	7700 3550 7350 3550
-Wire Wire Line
 	7350 3550 7350 2850
 Wire Wire Line
 	7350 2850 7100 2850
-Wire Wire Line
-	7700 3650 7250 3650
 Wire Wire Line
 	7250 3650 7250 3400
 Wire Wire Line
 	7250 3400 7100 3400
 Wire Wire Line
-	7700 3750 7250 3750
-Wire Wire Line
 	7250 3750 7250 3950
 Wire Wire Line
 	7250 3950 7100 3950
-Wire Wire Line
-	7700 3850 7350 3850
 Wire Wire Line
 	7350 3850 7350 4500
 Wire Wire Line
 	7350 4500 7100 4500
 Wire Wire Line
-	7700 3950 7450 3950
-Wire Wire Line
 	7450 3950 7450 5050
 Wire Wire Line
 	7450 5050 7100 5050
-Wire Wire Line
-	7700 4050 7550 4050
 Wire Wire Line
 	7550 4050 7550 5600
 Wire Wire Line
@@ -1115,15 +1036,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 3650 9050 3450
 Wire Wire Line
-	8600 3550 8950 3550
-Wire Wire Line
 	8950 3550 8950 2900
 Wire Wire Line
-	8600 3450 8850 3450
-Wire Wire Line
 	8850 3450 8850 2350
-Wire Wire Line
-	8600 3350 8750 3350
 Wire Wire Line
 	8750 3350 8750 1800
 Connection ~ 9750 1800
@@ -1148,33 +1063,120 @@ Wire Wire Line
 	9350 5650 8750 5650
 Wire Wire Line
 	10050 5650 10250 5650
-Wire Wire Line
-	8600 4050 8750 4050
-Wire Wire Line
-	8600 3950 8850 3950
-Wire Wire Line
-	8600 3850 8950 3850
-Wire Wire Line
-	8600 3750 9050 3750
-Wire Wire Line
-	8600 3650 9050 3650
 Text GLabel 2750 3300 0    50   Input ~ 0
 AudioLevel
 Wire Wire Line
 	2850 3300 2750 3300
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint Audiolevel_TP1
 U 1 1 61B4A93D
 P 2850 3300
-F 0 "TP1" H 2908 3418 50  0000 L CNN
+F 0 "Audiolevel_TP1" H 2908 3418 50  0000 L CNN
 F 1 "TestPoint" H 2908 3327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3050 3300 50  0001 C CNN
 F 3 "~" H 3050 3300 50  0001 C CNN
 	1    2850 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 4000 1650 0    50   ~ 0
-Värt att byta resistorer till SMD trimpots?
-Text Notes 7850 4350 0    50   ~ 0
-RN eller 8xR?
+$Comp
+L Device:R_Small R9
+U 1 1 6167D4EA
+P 4850 5650
+F 0 "R9" H 4909 5696 50  0000 L CNN
+F 1 "220K" H 4909 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4850 5650 50  0001 C CNN
+F 3 "~" H 4850 5650 50  0001 C CNN
+	1    4850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 61681A90
+P 4350 5650
+F 0 "C4" H 4442 5696 50  0000 L CNN
+F 1 "220nF" H 4442 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4350 5650 50  0001 C CNN
+F 3 "~" H 4350 5650 50  0001 C CNN
+	1    4350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1800 5700 1800
+$Comp
+L Device:R_POT RV1
+U 1 1 6190E703
+P 5450 1800
+F 0 "RV1" V 5335 1800 50  0000 C CNN
+F 1 "R_POT" V 5244 1800 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 5450 1800 50  0001 C CNN
+F 3 "~" H 5450 1800 50  0001 C CNN
+	1    5450 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 6161C13B
+P 5450 1650
+F 0 "#PWR01" H 5450 1500 50  0001 C CNN
+F 1 "VCC" H 5465 1823 50  0000 C CNN
+F 2 "" H 5450 1650 50  0001 C CNN
+F 3 "" H 5450 1650 50  0001 C CNN
+	1    5450 1650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 1800
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6198A202
+P 8100 3550
+F 0 "RN1" V 7683 3550 50  0000 C CNN
+F 1 "R_Pack04" V 7774 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8375 3550 50  0001 C CNN
+F 3 "~" H 8100 3550 50  0001 C CNN
+	1    8100 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 61987DDD
+P 8100 3950
+F 0 "RN2" V 8425 3950 50  0000 C CNN
+F 1 "R_Pack04" V 8334 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8375 3950 50  0001 C CNN
+F 3 "~" H 8100 3950 50  0001 C CNN
+	1    8100 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 3350 7900 3350
+Wire Wire Line
+	7450 3450 7900 3450
+Wire Wire Line
+	7350 3550 7900 3550
+Wire Wire Line
+	7250 3650 7900 3650
+Wire Wire Line
+	7250 3750 7900 3750
+Wire Wire Line
+	7350 3850 7900 3850
+Wire Wire Line
+	7450 3950 7900 3950
+Wire Wire Line
+	7550 4050 7900 4050
+Wire Wire Line
+	8300 4050 8750 4050
+Wire Wire Line
+	8300 3950 8850 3950
+Wire Wire Line
+	8300 3850 8950 3850
+Wire Wire Line
+	8300 3750 9050 3750
+Wire Wire Line
+	8300 3650 9050 3650
+Wire Wire Line
+	8300 3550 8950 3550
+Wire Wire Line
+	8300 3450 8850 3450
+Wire Wire Line
+	8300 3350 8750 3350
 $EndSCHEMATC
