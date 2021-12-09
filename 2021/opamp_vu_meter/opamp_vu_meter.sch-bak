@@ -1068,10 +1068,10 @@ AudioLevel
 Wire Wire Line
 	2850 3300 2750 3300
 $Comp
-L Connector:TestPoint Audiolevel_TP
+L Connector:TestPoint Audiolevel_TP1
 U 1 1 61B4A93D
 P 2850 3300
-F 0 "Audiolevel_TP" H 2908 3418 50  0000 L CNN
+F 0 "Audiolevel_TP1" H 2908 3418 50  0000 L CNN
 F 1 "TestPoint" H 2908 3327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3050 3300 50  0001 C CNN
 F 3 "~" H 3050 3300 50  0001 C CNN
