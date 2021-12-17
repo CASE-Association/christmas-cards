@@ -2,4 +2,6 @@
 
 ![xmas card 2021](https://github.com/CASE-Association/christmas-cards/raw/main/2021/opamp_vu_meter/xmas2021.PNG)
 
-![Eschema](https://github.com/CASE-Association/christmas-cards/raw/main/2021/opamp_vu_meter/eschema.pdf)
+Go to https://case-association.github.io/christmas-cards/index.html for interactive BOM.
+
+[Eschema](https://github.com/CASE-Association/christmas-cards/raw/main/2021/opamp_vu_meter/eschema.pdf)
