@@ -1177,6 +1177,6 @@ F 1 "MM3Z4V3" H 1350 5276 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 1350 4975 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm3z2v4.pdf" H 1350 5150 50  0001 C CNN
 	1    1350 5150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
