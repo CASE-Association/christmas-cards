@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D10, D11, D12, D13, D14, D15, D16, D2, D3, D4, D5, D6, D7, D8, D9",LED_SK6812_EC15_1.5x1.5mm,16,SK6805,
+R1,0603,1,470,
+S1,SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5,1,TS-1187A-B-A-B,C412370
+TP1,TestPoint_Pad_D1.5mm,1,TestPoint1,
+TP2,TestPoint_Pad_D1.5mm,1,TestPoint2,
+TP3,TestPoint_Pad_D1.5mm,1,TestPoint3,
+TP4,TestPoint_Pad_D1.5mm,1,TestPoint4,
+TP5,TestPoint_Pad_D1.5mm,1,TestPoint5,
+TP6,TestPoint_Pad_D1.5mm,1,TestPoint6,
+U1,QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias,1,ATtiny44A-M,
+USBC1,USB-C_SMD-TYPE-C-31-M-12,1,TYPE-C-31-M-12,C165948
