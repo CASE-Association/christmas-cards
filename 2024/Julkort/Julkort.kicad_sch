@@ -690,423 +690,6 @@
 				)
 			)
 		)
-		(symbol "New_Library:SK-3296S-01-L1"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J1"
-				(at 12.7 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK-3296S-01-L1"
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProLib_pcs_2024-11-12:SW-SMD_3P-P1.50_L2.7-W6.6"
-				(at 3.556 -12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf"
-				(at 3.556 -14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Toggle Switches SMD RoHS"
-				(at 3.556 -17.272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.4"
-				(at 4.318 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "XKB Connectivity"
-				(at 3.556 -22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SK-3296S-01-L1"
-				(at 3.556 -24.892 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK-3296S-01-L1_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SK-3296S-01-L1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SK-3296S-01-L1_1_0"
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:L78L05_SOT89"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L78L05_SOT89"
-				(at -0.635 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 100mA Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?89*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L78L05_SOT89_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L78L05_SOT89_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016) hide)
@@ -2283,12 +1866,6 @@
 		(uuid "07cc3d9c-bc5a-4f4f-9c67-ad7b0d06883d")
 	)
 	(junction
-		(at 210.82 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cc311ff-ebd3-42df-a0ae-aad5733c1537")
-	)
-	(junction
 		(at 43.18 -48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2367,12 +1944,6 @@
 		(uuid "61b3412d-8883-46d0-8d87-5a4f868a8ecc")
 	)
 	(junction
-		(at 165.1 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d2d0984-8c09-4dec-a338-61276c1e09fe")
-	)
-	(junction
 		(at 101.6 -11.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2431,12 +2002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afbf23d8-9150-48d1-a628-d11d95a9a0b8")
-	)
-	(junction
-		(at 241.3 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b647064b-e269-44d7-90f7-71f618b7f475")
 	)
 	(junction
 		(at 43.18 -25.4)
@@ -2517,10 +2082,6 @@
 		(uuid "fe95443b-4ecf-4d45-a750-2aa28c40f98f")
 	)
 	(no_connect
-		(at 175.26 128.27)
-		(uuid "1a30127e-909a-407c-8735-72bc3078751a")
-	)
-	(no_connect
 		(at 168.91 53.34)
 		(uuid "2714ffa0-2c94-4a9a-9f45-6f0499d0afc3")
 	)
@@ -2549,10 +2110,6 @@
 		(uuid "44fdc115-9f28-4383-8878-01cc7ee03b39")
 	)
 	(no_connect
-		(at 200.66 120.65)
-		(uuid "4a132658-a418-4eee-b874-9f19fa3b3a0d")
-	)
-	(no_connect
 		(at 168.91 58.42)
 		(uuid "8aee9fbf-03b8-4773-828b-d68e4065ccd1")
 	)
@@ -2563,10 +2120,6 @@
 	(no_connect
 		(at 146.05 55.88)
 		(uuid "9976408f-8146-4ff3-aaf3-531d19da51ca")
-	)
-	(no_connect
-		(at 200.66 123.19)
-		(uuid "9d99cfd2-326b-4420-92da-fcaca9e947a6")
 	)
 	(no_connect
 		(at 80.01 110.49)
@@ -2587,10 +2140,6 @@
 	(no_connect
 		(at 80.01 92.71)
 		(uuid "d9b08f64-4644-4d57-b0c4-4b52cff86271")
-	)
-	(no_connect
-		(at 200.66 125.73)
-		(uuid "e35697f4-51a1-42a8-b096-97940585b522")
 	)
 	(wire
 		(pts
@@ -2744,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 146.05 78.74)
+			(xy 146.05 82.55) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 165.1 101.6)
+			(xy 146.05 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3214,16 +2763,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6294043e-440b-43d3-803c-e249b87ab756")
-	)
-	(wire
-		(pts
 			(xy 256.54 -43.18) (xy 256.54 -40.64)
 		)
 		(stroke
@@ -3404,16 +2943,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 82.55) (xy 241.3 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f0008f-8e43-40c2-bef3-553b34b5e1eb")
-	)
-	(wire
-		(pts
 			(xy 129.54 85.09) (xy 129.54 90.17)
 		)
 		(stroke
@@ -3451,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "8c1ea341-6622-4850-b382-36f64f7bc8e5")
-	)
-	(wire
-		(pts
-			(xy 241.3 81.28) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c28995e-37a1-4d87-9458-2308850325d1")
 	)
 	(wire
 		(pts
@@ -3591,16 +3110,6 @@
 			(type default)
 		)
 		(uuid "9ce241c6-15c7-4bfa-8c78-00222ddb2771")
-	)
-	(wire
-		(pts
-			(xy 203.2 81.28) (xy 203.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d37bd37-06bd-4890-8478-b366e8348097")
 	)
 	(wire
 		(pts
@@ -3884,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 71.12) (xy 168.91 101.6)
+			(xy 168.91 71.12) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3954,16 +3463,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 95.25) (xy 210.82 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c947fc33-01b0-470b-9e41-9f385e4749ca")
-	)
-	(wire
-		(pts
 			(xy 226.06 -43.18) (xy 226.06 -40.64)
 		)
 		(stroke
@@ -3971,6 +3470,16 @@
 			(type default)
 		)
 		(uuid "cc9cf580-23bc-4d25-8cdf-2f0c80f1eadb")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf7bb9f-7c84-4cd9-8d4c-ed849e658515")
 	)
 	(wire
 		(pts
@@ -3994,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 123.19) (xy 175.26 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cffcd6fe-5746-49f2-9be9-a35123f3328c")
-	)
-	(wire
-		(pts
 			(xy 73.66 -48.26) (xy 104.14 -48.26)
 		)
 		(stroke
@@ -4011,16 +3510,6 @@
 			(type default)
 		)
 		(uuid "d4621c63-df4c-46f6-b33d-ebe2210e1257")
-	)
-	(wire
-		(pts
-			(xy 165.1 101.6) (xy 165.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4725d58-f3cb-43a9-9fff-dd264e146ae5")
 	)
 	(wire
 		(pts
@@ -4041,16 +3530,6 @@
 			(type default)
 		)
 		(uuid "d71e80c3-5b5d-402f-9e93-f37a057dcea6")
-	)
-	(wire
-		(pts
-			(xy 241.3 82.55) (xy 241.3 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbf540f0-0821-4ade-aaa9-127a72238571")
 	)
 	(wire
 		(pts
@@ -4204,16 +3683,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 171.45 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6338c8-4608-4b9c-9bf3-7678cee2a1e1")
-	)
-	(wire
-		(pts
 			(xy 143.51 43.18) (xy 143.51 71.12)
 		)
 		(stroke
@@ -4310,7 +3779,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 175.26 120.65 180)
+		(at 156.21 82.55 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4320,7 +3789,7 @@
 		)
 		(uuid "3e5d97fd-1d47-4f00-bc7d-4d316d7c1663")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.4043 120.65 0)
+			(at 156.21 89.4057 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +3823,7 @@
 	)
 	(global_label "VCC_REG"
 		(shape input)
-		(at 241.3 102.87 270)
+		(at 184.15 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4364,7 +3833,7 @@
 		)
 		(uuid "68ae2434-728d-4a01-ad24-4f270ff2a554")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.3 114.1404 90)
+			(at 184.15 74.7704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,87 +6134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L78L05_SOT89")
-		(at 210.82 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96c0ffc6-12c3-4cc1-ab02-bd949ede26ad")
-		(property "Reference" "U2"
-			(at 210.82 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L78L05_SOT89"
-			(at 210.82 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 210.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 210.82 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 210.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a848aa3-cef1-4165-ba5f-649793899bde")
-		)
-		(pin "2"
-			(uuid "c77e1a53-a7d1-4619-bcab-06399b60994f")
-		)
-		(pin "3"
-			(uuid "7afb8d48-5b0c-410e-976b-08333176a3f5")
-		)
-		(instances
-			(project "Julkort"
-				(path "/136d792a-4141-4b53-b7a8-d29f34e3e9eb"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 86.36 100.33 270)
 		(unit 1)
@@ -7774,7 +7162,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 241.3 82.55 270)
+		(at 190.5 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7783,7 +7171,7 @@
 		(fields_autoplaced yes)
 		(uuid "d605b75f-23ec-44aa-a7b2-11c5853cb274")
 		(property "Reference" "TP5"
-			(at 246.38 81.28 90)
+			(at 195.58 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7180,7 @@
 			)
 		)
 		(property "Value" "TestPoint5"
-			(at 246.38 83.82 90)
+			(at 195.58 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +7189,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 241.3 87.63 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +7198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 87.63 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,7 +7207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 82.55 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,7 +7216,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 241.3 82.55 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,171 +7231,6 @@
 			(project "Julkort"
 				(path "/136d792a-4141-4b53-b7a8-d29f34e3e9eb"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:SK-3296S-01-L1")
-		(at 175.26 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbc57806-d1fe-43f0-bf39-18357f7b6619")
-		(property "Reference" "J1"
-			(at 187.96 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK-3296S-01-L1"
-			(at 187.96 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProLib_pcs_2024-11-12:SW-SMD_3P-P1.50_L2.7-W6.6"
-			(at 178.816 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf"
-			(at 178.816 135.382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Toggle Switches SMD RoHS"
-			(at 178.816 137.922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.4"
-			(at 179.578 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 178.816 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SK-3296S-01-L1"
-			(at 178.816 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 196.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 196.85 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 196.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 196.85 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 175.26 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a69e70b-57d4-4f61-8bb4-0af54fe07be4")
-		)
-		(pin "2"
-			(uuid "e52391e4-0766-42ab-bac6-a425aab9a109")
-		)
-		(pin "3"
-			(uuid "4a2a254b-1c38-470b-9edf-59ef4554f38c")
-		)
-		(pin "0"
-			(uuid "859fa38a-3d45-45bd-9a9e-7e44ceda7755")
-		)
-		(pin "0"
-			(uuid "954fdfa8-8180-4ca8-8e10-ee5641954840")
-		)
-		(pin "0"
-			(uuid "8ab28ff6-dddc-4cf2-8980-4974a3623421")
-		)
-		(pin "0"
-			(uuid "daa3eb1e-e70a-47b5-bd50-87f52ba06060")
-		)
-		(instances
-			(project "Julkort"
-				(path "/136d792a-4141-4b53-b7a8-d29f34e3e9eb"
-					(reference "J1")
 					(unit 1)
 				)
 			)
