@@ -4,4 +4,5 @@
   (lib (name "microusb")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/custom_libs/microusb.elibz")(options "")(descr ""))
   (lib (name "pushbutton")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/custom_libs/pushbutton.elibz")(options "")(descr ""))
   (lib (name "usb_c")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/custom_libs/usb_c.elibz")(options "")(descr ""))
+  (lib (name "footprint")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/custom_libs/attiny44/footprint.elibz")(options "")(descr ""))
 )
